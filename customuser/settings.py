@@ -3,6 +3,8 @@
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
+AUTH_USER_MODULE = 'someapp.User'
+
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
 )
